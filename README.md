@@ -16,17 +16,11 @@
 
 ## インストール
 
-### 方法1: マーケットプレイスから
+Claude Code で以下のコマンドを実行してください。
 
 ```
-/plugin marketplace add <このリポジトリのオーナー/リポジトリ名>
+/plugin marketplace add bsj-t-akamatsu/nazokake-plugin
 /plugin install nazokake
-```
-
-### 方法2: ローカルでテスト
-
-```bash
-claude --plugin-dir ./nazokake-plugin
 ```
 
 ## なぞかけとは？
