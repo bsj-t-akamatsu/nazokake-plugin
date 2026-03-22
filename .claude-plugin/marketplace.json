@@ -1,0 +1,24 @@
+{
+  "name": "nazokake-plugin",
+  "owner": {
+    "name": "bsj-t-akamatsu"
+  },
+  "metadata": {
+    "description": "なぞかけ（Japanese wordplay riddles）の練習・収集プラグイン for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "nazokake",
+      "source": "./plugins/nazokake",
+      "description": "なぞかけの練習・収集スキル。お題を出題し、ヒントを出し、答え合わせをして練習記録を残します。",
+      "version": "1.0.0",
+      "author": {
+        "name": "bsj-t-akamatsu"
+      },
+      "repository": "https://github.com/bsj-t-akamatsu/nazokake-plugin",
+      "license": "MIT",
+      "category": "entertainment",
+      "tags": ["nazokake", "japanese", "wordplay", "riddle", "なぞかけ"]
+    }
+  ]
+}
